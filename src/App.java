@@ -1,5 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Tiimiimme kuuluu: Eveliina");
+        
+        TulostaTiiminJasenet();
+    }
+        public static void TulostaTiiminJasenet() {
+            System.out.println("Tiimin jäsenet:");
+            System.out.println("Eveliina");
+            System.out.println("Vesa");
     }
 }
+
